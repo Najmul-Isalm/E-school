@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>E-School</title>
+    <link rel="shortcut icon" href="ICON/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -27,10 +28,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto text-center">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#books">Books <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Courses</a>
+                            <a class="nav-link" href="#courses">Courses</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Others</a>
@@ -38,9 +39,7 @@
                         <li class="nav-item">
                             <a class="nav-link " href="#">Blog</a>
                         </li>
-                        <li class="nav-item m-auto">
-                            <a class="nav-link btn btn-success" type="button" href="#">Sing in</a>
-                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -72,7 +71,7 @@
     <!-- headar section end-->
 
     <!-- books section start -->
-    <section class=" py-5 ">
+    <section class=" py-5 " id="books">
         <div class="container">
             <div class="row ">
 
@@ -124,7 +123,7 @@
     <!-- books section end -->
 
     <!-- Online Courses section start  -->
-    <section class=" py-5 course-wrapper">
+    <section class=" py-5 course-wrapper" id="courses">
 
         <h1 class="py-5 display-4 font-weight-bolder">Online Courses</h1>
 
@@ -226,48 +225,84 @@
 
             <div class="row ">
 
-                <div class="col-md-6">
-                    <p>Millions of people of all ages and from around
+                <div class="col-md-5">
+                    <h5>Millions of people of all ages and from around
                         the world are improving their lives with us
-                    </p>
+                    </h5>
                 </div>
 
                 <div class="col-md-2">
-                    <h4>Course</h4>
+                    <h4 class=" text-center">Course</h4>
                     <ul>
-                        <li>Graphic Design </li>
-                        <li>Web Design </li>
-                        <li>Business </li>
-                        <li>Marketing </li>
-                        <li>Engineering </li>
+                        <li class="d-flex justify-content-between align-items-center">
+                            <i class="fas fa-edit"></i>Graphic Design
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center">
+                            <i class="fas fa-desktop"></i> Web Design
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center">
+                            <i class="fas fa-business-time"></i> Business
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center">
+                            <i class="fas fa-lightbulb"></i> Marketing
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center">
+                            <i class="fas fa-user-graduate"></i> Engineering
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h4 class=" text-center">Contact us</h4>
+                    <ul>
+                        <li class="d-flex justify-content-between align-items-center">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Ramgarh, Khagrachari.
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center"><i class="fas fa-mobile-alt"></i>
+                            +88012345678910
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center"><i class="fas fa-envelope"></i>
+                            info@colorlib.com
+                        </li>
                     </ul>
                 </div>
 
                 <div class="col-md-2">
-                    <h4>Terms</h4>
-                    <ul>
-                        <li>Graphic Design </li>
-                        <li>Web Design </li>
-                        <li>Business </li>
-                        <li>Marketing </li>
-                        <li>Engineering </li>
-                    </ul>
-                </div>
+                    <h4 class="social-head text-center">Social link</h4>
+                    <ul class="social-item">
 
-                <div class="col-md-2">
-                    <h4>Useful Link</h4>
-                    <ul>
-                        <li>Graphic Design </li>
-                        <li>Web Design </li>
-                        <li>Business </li>
-                        <li>Marketing </li>
-                        <li>Engineering </li>
+                        <li>
+                            <a href="" class="d-flex justify-content-between align-items-center">
+                                <i class="fab fa-facebook-f mr-3"></i> Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="d-flex justify-content-between align-items-center">
+                                <i class="fab fa-instagram mr-3"></i> Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="d-flex justify-content-between align-items-center ">
+                                <i class="fab fa-linkedin-in mr-3"></i> LinkedIn
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="d-flex justify-content-between align-items-center">
+                                <i class="fab fa-twitter mr-3"></i> Twitter
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="d-flex justify-content-between align-items-center">
+                                <i class="fab fa-youtube "></i> Youtuber
+                            </a>
+                        </li>
                     </ul>
                 </div>
 
             </div>
 
-            <div class="row mt-5 py-3 d-flex align-items-end justify-content-center">
+            <div class="row mt-5 py-3 d-flex align-items-end justify-content-center footer2">
                 <p class=" text-center di">Copyright &copy; 2020 Najmul-Islam</p>
             </div>
 
