@@ -1,0 +1,83 @@
+/* header section */
+header {
+  background-color: #f0fff0;
+}
+.logo {
+  width: 200px;
+}
+
+.nav-item a {
+  font-size: 20px;
+  margin: 0 10px;
+}
+.btn-success {
+  background-color: #21b573;
+  color: white !important;
+  width: 130px;
+}
+
+/* books section */
+.book-item {
+  width: 270px;
+  height: 270px;
+  background-color: #f8fffb;
+  border-radius: 8px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.book-item:hover {
+  box-shadow: 5px 5px 10px gray;
+  background-color: white;
+}
+
+/* Online Courses section  */
+.course-wrapper > h1 {
+  text-align: center;
+}
+.course-item {
+  border-radius: 10px;
+}
+.course-footer {
+  background-color: white;
+  border-radius: 10px !important;
+}
+/* Testimonial section */
+.test-wrapper > h1 {
+  text-align: center;
+}
+.test-text {
+  line-height: 35px;
+}
+
+/* footer section  */
+footer {
+  font-size: 20px;
+}
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  line-height: 30px;
+}
+
+/* media quri section  */
+@media (max-width: 575px) {
+  .book-item {
+    margin: 0 auto;
+    width: 230px;
+    height: 230px;
+  }
+  .book-text h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .test-text {
+    line-height: 30px;
+    text-align: justify;
+  }
+}
+@media (max-width: 719px) {
+  .book-item {
+    width: 250px;
+    height: 250px;
+  }
+}
