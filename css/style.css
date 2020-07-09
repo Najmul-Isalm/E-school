@@ -48,7 +48,11 @@ header {
 .test-text {
   line-height: 35px;
 }
+/* form section  */
 
+.form-wrapper > h1 {
+  text-align: center;
+}
 /* footer section  */
 
 footer h4 {

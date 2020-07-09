@@ -28,16 +28,17 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto text-center">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#books">Books <span class="sr-only">(current)</span></a>
+                            <a class="nav-link font-weight-bold" href="#books">Books <span
+                                    class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#courses">Courses</a>
+                            <a class="nav-link font-weight-bold" href="#courses">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Others</a>
+                            <a class="nav-link font-weight-bold" href="#other">Others</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#">Blog</a>
+                            <a class="nav-link font-weight-bold" href="#log-in">Log In</a>
                         </li>
 
                     </ul>
@@ -195,7 +196,7 @@
     <!-- Online Courses section end -->
 
     <!-- Testimonial section start  -->
-    <section class="py-5 test-wrapper">
+    <section class="py-5 test-wrapper" id="other">
 
         <h1 class=" display-4 font-weight-bolder py-5 ">Testimonial</h1>
 
@@ -218,6 +219,85 @@
         </div>
     </section>
     <!-- Testimonial section end -->
+
+    <!-- form section start  -->
+    <section class="py-5 form-wrapper" id="log-in">
+        <h1 class=" display-4 font-weight-bolder py-5 ">Log In</h1>
+        <div class="container">
+
+            <form>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationServer01">First name</label>
+                        <input type="text" class="form-control is-valid" id="validationServer01" value="Najmul"
+                            required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label for="validationServer02">Last name</label>
+                        <input type="text" class="form-control is-valid" id="validationServer02" value="Islam" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="form-row">
+
+                    <div class="col-md-6 mb-3">
+                        <label for="validationServer03">Email</label>
+                        <input type="email" class="form-control is-invalid" id="validationServer03" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                        <label for="validationServer04">Course</label>
+                        <select class="custom-select is-invalid" id="validationServer04" required>
+                            <option selected disabled value="">Graphic Design</option>
+                            <option>Web Design</option>
+                            <option>Business</option>
+                            <option>Marketing</option>
+                            <option>Engineering</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                        <label for="validationServer05">Phone No.</label>
+                        <input type="number" class="form-control is-invalid" id="validationServer05" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid number.
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+                        <label class="form-check-label" for="invalidCheck3">
+                            Agree to terms and conditions
+                        </label>
+                        <div class="invalid-feedback">
+                            You must agree before submitting.
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn btn-success shadow" type="submit">Submit form</button>
+
+            </form>
+        </div>
+    </section>
+    <!-- form section end -->
 
     <!-- footer section start -->
     <footer class=" pt-5 bg-dark text-light">
